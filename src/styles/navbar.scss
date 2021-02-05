@@ -1,0 +1,54 @@
+$first-gradient-color: #e0f8ff;
+$second-gradient-color: #bbefff;
+$image-size: 20px;
+$active-image-size: 40px;
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    first-gradient-color,
+    second-gradient-color
+  );
+  font-family: 'Russo One';
+  border-radius: 27px;
+  width: fit-content;
+  margin-top: 2%;
+  margin: auto;
+  a {
+    float: left;
+    background: linear-gradient(
+      to bottom,
+      $first-gradient-color,
+      $second-gradient-color
+    );
+    color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+
+    :hover {
+      background: linear-gradient(
+        to bottom,
+        $second-gradient-color,
+        $first-gradient-color
+      );
+      color: rgb(37, 37, 37);
+    }
+
+    .active {
+      padding: 14px 16px;
+      img {
+        height: $active-image-size;
+        width: $active-image-size;
+      }
+    }
+  }
+
+  img {
+    height: $image-size;
+    width: $image-size;
+  }
+}
