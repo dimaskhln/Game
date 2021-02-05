@@ -1,0 +1,17 @@
+{
+  "name": "dimas-first-game",
+  "version": "1.0.0",
+  "description": "This is a first game made by me. ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitriy Khalin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
