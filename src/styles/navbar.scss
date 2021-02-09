@@ -7,8 +7,8 @@ $active-image-size: 40px;
   overflow: hidden;
   background: linear-gradient(
     to bottom,
-    first-gradient-color,
-    second-gradient-color
+    $first-gradient-color,
+    $second-gradient-color
   );
   font-family: 'Russo One';
   border-radius: 27px;
@@ -18,7 +18,7 @@ $active-image-size: 40px;
   a {
     float: left;
     background: linear-gradient(
-      to bottom,
+      to top,
       $first-gradient-color,
       $second-gradient-color
     );
