@@ -1,5 +1,7 @@
 node_modules
 .prettierrc
 .vscode
-build
+build/index.html
+build/style.css
+build/navbar.css
 dist
