@@ -3,5 +3,4 @@ node_modules
 .vscode
 build/index.html
 build/style.css
-build/navbar.css
 dist

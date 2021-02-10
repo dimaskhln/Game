@@ -29,7 +29,7 @@ gulp.task('sass', function () {
 
 gulp.task('watch', function () {
   livereload.listen();
-  gulp.watch('src/pages/**/*.scss', gulp.series('sass'));
+  gulp.watch('src/styles/**/*.scss', gulp.series('sass'));
   gulp.watch('src/pages/**/*.pug', gulp.series('views'));
 });
 

@@ -1,4 +1,6 @@
-@import 'navbar.scss';
+@import 'common/navbar.scss';
+
+@import 'common/cards.scss';
 
 body {
   background: linear-gradient(to right, #ffffff, #f3f9fb);

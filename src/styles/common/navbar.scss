@@ -18,7 +18,7 @@ $active-image-size: 40px;
   a {
     float: left;
     background: linear-gradient(
-      to top,
+      to bottom,
       $first-gradient-color,
       $second-gradient-color
     );
@@ -29,15 +29,6 @@ $active-image-size: 40px;
     font-size: 17px;
     transition: 0.3s;
 
-    :hover {
-      background: linear-gradient(
-        to bottom,
-        $second-gradient-color,
-        $first-gradient-color
-      );
-      color: rgb(37, 37, 37);
-    }
-
     .active {
       padding: 14px 16px;
       img {
@@ -45,6 +36,14 @@ $active-image-size: 40px;
         width: $active-image-size;
       }
     }
+  }
+  a:hover {
+    background: linear-gradient(
+      to bottom,
+      $second-gradient-color,
+      $first-gradient-color
+    );
+    color: rgb(37, 37, 37);
   }
 
   img {
